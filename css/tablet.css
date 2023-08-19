@@ -1,0 +1,394 @@
+/*phần navbar*/
+
+@media screen and (max-width: 1200px) {
+  .navbar-item {
+    border-right: 1px solid #eee;
+  }
+}
+
+/*các class shrink là phần khung lúc chưa bấm nút show more*/
+@media screen and (max-width: 1200px) {
+  .lg-sc {
+    display: none;
+  }
+  .sm-sc {
+    display: block !important;
+  }
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 55% 55%;
+    /* grid-template-rows: auto auto auto auto; */
+    gap: 30px;
+    font-size: 14px;
+  }
+  .shrink-container1 {
+    height: 200px;
+  }
+  .shrink-container2 {
+    height: 200px;
+  }
+  .shrink-container3 {
+    height: 200px;
+  }
+  /* #job-info .container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 200px 350px;
+    gap: 100px;
+    font-size: 14px;
+  } */
+  .kinh-nghiem {
+    grid-column: 1;
+    grid-row: 1;
+    height: 800px;
+    border: #eee 1px solid !important;
+  }
+  .hoat-dong2 {
+    grid-column: 2;
+    grid-row: 1;
+    height: 430px;
+    border: #eee 1px solid !important;
+  }
+  .hoc-van {
+    grid-column: 2;
+    grid-row: 2;
+    border: #eee 1px solid !important;
+    height: 530px;
+  }
+  .hoc-van-shrink {
+    height: 200px;
+  }
+  .so-thich {
+    grid-column: 2;
+    grid-row: 3;
+    height: 260px;
+    border: #eee 1px solid !important;
+  }
+  .so-thich-shrink {
+    height: 200px;
+  }
+  .display10 {
+    margin-top: -100px;
+  }
+
+  .ky-nang {
+    grid-row: 3;
+    grid-column: 1;
+    height: 410px;
+    border: #eee 1px solid !important;
+  }
+  .ky-nang-shrink {
+    height: 200px;
+  }
+  /* .ky-nang-3 {
+    margin-top: -230px !important;
+  } */
+  .ngon-ngu {
+    grid-row: 4;
+    grid-column: 1;
+    height: 250px;
+    border: #eee 1px solid !important;
+  }
+  .ngon-ngu-shrink {
+    height: 200px;
+  }
+  .kinh-nghiem-shrink {
+    height: 200px;
+  }
+  .hoat-dong-shrink2 {
+    height: 200px;
+  }
+  .list-flex {
+    margin-top: 120px;
+    display: flex;
+  }
+  .upper {
+    gap: 40px;
+  }
+  #job-info h1 {
+    font-size: 30px;
+    font-weight: 400;
+    grid-row: 1 / span 1;
+    padding-top: 25px;
+    padding-left: 10px;
+    font-weight: 500;
+  }
+  #job-info h4 {
+    font-size: 16px;
+  }
+  .container .e1 .a2 {
+    grid-row: 2 / span 3;
+  }
+  .display5 {
+    padding-top: 50px;
+  }
+  .a1 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100px 30px 180px 200px 30px;
+    padding-left: 5px;
+    padding-right: 15px;
+    color: black;
+    /* border: 2px solid #eeeeee; */
+    border: none;
+  }
+
+  .a2 {
+    grid-column: 1 / span 2;
+    margin-right: -50px;
+    margin-left: -5px;
+    grid-row: 3;
+    color: black;
+  }
+  .a3 {
+    grid-row: 4;
+    grid-column: 1 / span 2;
+    margin-right: -50px;
+    color: black;
+  }
+  .a4 {
+    grid-row: 5;
+    grid-column: 1 / span 2;
+  }
+  .e2 {
+    grid-row: 4;
+    grid-column: 1 / span 2;
+    margin-top: 30px;
+  }
+  .e3 {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+    margin-top: -10px;
+  }
+  .display {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+  }
+
+  .display2 {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+  }
+  .display3 {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+  }
+  .icon {
+    padding: 25px;
+    padding-right: 0px;
+    color: gray;
+  }
+
+  #job-info li {
+    color: skyblue;
+  }
+  #job-info li span {
+    color: black;
+  }
+
+  .time {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .hyper-span {
+    display: flex;
+    gap: 5px;
+    padding-top: 5px;
+  }
+  .span {
+    width: 70px;
+    height: 5px;
+    background: blue;
+    border-radius: 3px;
+  }
+  .span-grey {
+    width: 70px;
+    height: 5px;
+    background: #d3d3d3;
+    border-radius: 3px;
+  }
+  .less {
+    grid-row: 5;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    /* border: none; */
+  }
+  .less:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .show {
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+  }
+  .show:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden {
+    display: none;
+  }
+  /*nút 2*/
+  .less2 {
+    grid-row: 5;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    /* border: none; */
+  }
+  .less2:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .show2 {
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+  }
+  .show2:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden2 {
+    display: none;
+  }
+
+  /*nút 3*/
+  .less3 {
+    grid-row: 5;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    /* border: none; */
+    margin-top: -150px;
+    margin-bottom: 150px;
+  }
+  .less3:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .show3 {
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+  }
+  .show3:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden3 {
+    display: none;
+  }
+}
+/**/
+
+@media screen and (max-width: 1200px) {
+  .du-an {
+    display: grid;
+    grid-template-columns: 175px 175px 175px;
+    grid-template-rows: 800px;
+    justify-content: center;
+    justify-items: center;
+    gap: 13px;
+    font-size: 14px;
+  }
+  .cv-canhan {
+    border: #c7c7c7 1px solid;
+    width: 170px;
+  }
+  .fd-flex {
+    display: block;
+  }
+  .du-an-bar {
+    display: flex;
+    gap: 20px;
+    border-top: #c7c7c7 1px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    width: 170px;
+  }
+  .du-an-context {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 250px 150px 65px;
+    color: #616161;
+  }
+  .thu-cung-context {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 250px 130px 75px;
+    /* border: solid 1px #616161; */
+    color: #616161;
+  }
+  .tin-tuc-context {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 250px 130px 75px; /*tổng 230px*/
+    /* border: solid 1px #616161; */
+    color: #616161;
+  }
+  .tb {
+    border-top: #c7c7c7 1px solid;
+    padding: 10px;
+  }
+  .web-thu-cung {
+    border: #c7c7c7 1px solid;
+  }
+  .project-title {
+    padding: 30px;
+  }
+}
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .cc-gt {
+    display: block;
+  }
+  .img-rev {
+    height: 45%;
+  }
+  .cc-gt-content {
+    padding-top: 10px;
+  }
+  .border-line {
+    border-top: 1px solid orange;
+  }
+  .gt-line {
+    border-right: 1px solid orange;
+  }
+  #certificate {
+    width: 100%;
+    margin-right: -100px;
+  }
+  .img-banner {
+    position: relative;
+    width: 1950px;
+    height: 710px;
+    object-fit: cover;
+    object-position: 100% 0;
+    margin-left: -450px !important;
+    margin-bottom: 200px;
+    filter: brightness(50%);
+  }
+  .title-banner {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -700%);
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+  }
+}
+/*đôi khi container của phần có nút bấm hơi dài hơn lượng container bên trong
+là do text sẽ tràn xuống khi thu nhỏ màn hình*/
+/*phần job-info làm bằng 2 section để dễ dàng căn chỉnh mà không lo phía còn 
+lại gặp vấn đề*/

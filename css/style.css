@@ -1,0 +1,759 @@
+* {
+  margin: 0px;
+}
+
+#banner {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: -200px;
+}
+#personal-info {
+  background-color: #f1f1f1;
+}
+.psn-text {
+  padding: 50px;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+
+.img-banner {
+  position: relative;
+  width: 2150px;
+  height: 910px;
+  object-fit: cover;
+  object-position: -20% 0;
+  margin-left: -50px;
+  margin-bottom: 200px;
+  filter: brightness(50%);
+
+  /* position: relative;
+  width: 1600px;
+  height: 900px;
+  object-fit: cover;
+  margin-bottom: 300px; */
+}
+
+.title-banner {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -600%);
+  color: white;
+  font-size: 50px;
+  font-weight: lighter;
+}
+.title-banner1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -900%);
+  font-weight: lighter;
+  font-size: 16px;
+}
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+
+#personal-info .untype .info .li {
+  list-style-type: none;
+}
+
+.untype {
+  display: none;
+}
+
+/*phần navbar*/
+@media screen and (max-width: 3000px) {
+  .navbar-item {
+    border-right: 1px solid #eeeeee;
+    margin-bottom: -10px;
+  }
+  .navbar-nav :last-child {
+    border-right: none;
+  }
+  /*phần thông tin cá nhân*/
+  .ic-list {
+    color: #30a2ff;
+  }
+  /*phần job-info*/
+  .sm-sc {
+    display: none !important;
+  }
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto;
+    gap: 100px;
+    font-size: 14px;
+  }
+  .shrink-container1 {
+    height: 250px;
+  }
+  .shrink-container2 {
+    height: 250px;
+  }
+  .shrink-container3 {
+    height: 250px;
+  }
+  /* #job-info .container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 200px 350px;
+  gap: 100px;
+  font-size: 14px;
+} */
+
+  #job-info h1 {
+    font-size: 30px;
+    font-weight: 400;
+    grid-row: 1 / span 1;
+    padding-top: 25px;
+    padding-left: 10px;
+    font-weight: 500;
+  }
+  #job-info h4 {
+    font-size: 16px;
+  }
+  .container .e1 .a2 {
+    grid-row: 2 / span 3;
+  }
+  .a1 {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 100px 30px 180px 200px 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+    border: 2px solid #eeeeee;
+  }
+
+  .a2 {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    color: black;
+    margin-right: -10px !important;
+  }
+  .a3 {
+    grid-row: 4;
+    grid-column: 1 / span 2;
+    color: black;
+    margin-right: -10px !important;
+  }
+  .a4 {
+    grid-row: 5;
+    grid-column: 1 / span 2;
+  }
+  .e2 {
+    grid-row: 4;
+    margin-top: -140px;
+  }
+  .list-flex {
+    display: flex;
+    gap: 40px;
+  }
+  .ic {
+    background-color: white;
+    border: solid 3px rgb(67, 200, 209);
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 35px;
+    height: 35px;
+    padding-left: 5px;
+  }
+  .text-below {
+    font-size: 9px;
+  }
+  .kinh-nghiem {
+    margin-top: 20px;
+  }
+  /* .so-thich {
+    margin-top: 20px;
+  } */
+  .so-thich2 {
+    display: none;
+  }
+  .hoc-van {
+    margin-top: 20px;
+  }
+  .hoat-dong {
+    margin-top: 20px;
+  }
+  .icon {
+    padding: 25px;
+    padding-right: 0px;
+    color: gray;
+  }
+
+  #job-info li {
+    color: skyblue;
+  }
+  #job-info li span {
+    color: black;
+  }
+
+  .time {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .hyper-span {
+    display: flex;
+    gap: 5px;
+    padding-top: 5px;
+  }
+  .span {
+    width: 70px;
+    height: 5px;
+    background: blue;
+    border-radius: 3px;
+  }
+  .span-grey {
+    width: 70px;
+    height: 5px;
+    background: #d3d3d3;
+    border-radius: 3px;
+  }
+  .less {
+    grid-row: 5;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+  }
+  .less:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .show {
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .show:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden {
+    display: none;
+  }
+
+  /*nút 2*/
+  .less2 {
+    grid-row: 5;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+  }
+  .less2:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .show2 {
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .show2:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden2 {
+    display: none;
+  }
+
+  /*nút 3*/
+  .less3 {
+    grid-row: 5;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+
+    border: none;
+  }
+  .less3:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .show3 {
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .show3:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden3 {
+    display: none;
+  }
+  /*nút 4*/
+  .show4 {
+    grid-column: 1;
+    grid-row: 2;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .show4:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .less4 {
+    grid-column: 1;
+    grid-row: 5;
+    color: white;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    border: none;
+  }
+  .less4:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden4 {
+    display: none;
+  }
+  .shrink-container4 {
+    height: 200px;
+  }
+  /*nút 5*/
+  .show5 {
+    grid-column: 1;
+    grid-row: 2;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .show5:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .less5 {
+    grid-column: 1;
+    grid-row: 5;
+    color: white;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    border: none;
+  }
+  .less5:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden5 {
+    display: none;
+  }
+  .shrink-container5 {
+    height: 200px;
+  }
+  /*nút 6*/
+  .show6 {
+    grid-column: 1;
+    grid-row: 2;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .show6:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .less6 {
+    grid-column: 1;
+    grid-row: 5;
+    color: white;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    border: none;
+  }
+  .less6:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden6 {
+    display: none;
+  }
+  .shrink-container6 {
+    height: 200px;
+  }
+  .display6 {
+    margin-top: 70px;
+  }
+  /*nút 7*/
+
+  .less7 {
+    grid-row: 5;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    margin-top: 220px;
+    margin-bottom: -220px;
+
+    border: none;
+    border-radius: 20px;
+  }
+  .less7:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .show7 {
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .show7:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden7 {
+    display: none;
+  }
+  .shrink-container7 {
+    height: 200px;
+  }
+  /*nút 8*/
+
+  .less8 {
+    grid-row: 5;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: none;
+    /* border: none; */
+  }
+  .less8:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .show8 {
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .show8:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden8 {
+    display: none;
+  }
+  .shrink-container8 {
+    height: 200px;
+  }
+  /*nút 9*/
+
+  .less9 {
+    grid-row: 5;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    margin-top: -140px;
+    margin-bottom: 140px;
+    border-radius: 20px;
+    border: none;
+  }
+  .less9:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .show9 {
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .show9:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden9 {
+    display: none;
+  }
+  .shrink-container9 {
+    height: 200px;
+  }
+  /*nút 10*/
+
+  .less10 {
+    grid-row: 5;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    margin-top: -300px;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    border: none;
+  }
+  .less10:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .show10 {
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .show10:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden10 {
+    display: none;
+  }
+  .shrink-container10 {
+    height: 200px;
+  }
+  /*nút 11*/
+
+  .less11 {
+    grid-row: 5;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    margin-top: -300px;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    border: none;
+  }
+  .less11:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .show11 {
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .show11:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden11 {
+    display: none;
+  }
+  .shrink-container11 {
+    height: 200px;
+  }
+  /*nút 12*/
+
+  .less12 {
+    grid-row: 5;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    margin-top: -150px;
+    margin-bottom: 150px;
+  }
+  .less12:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .show12 {
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .show12:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden12 {
+    display: none;
+  }
+  .shrink-container12 {
+    height: 200px;
+  }
+}
+
+/*phần giải thưởng*/
+.cc-gt-grid {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
+}
+.cc-gt2 {
+  grid-column: 2;
+}
+.border-line {
+  border-top: 1px orange solid;
+}
+.side-line {
+  border-bottom: 1px orange solid;
+  margin-bottom: -1px;
+}
+.img {
+  width: 200px;
+}
+.cc-gt {
+  display: flex;
+  font-size: 12px;
+}
+.cc-gt-content {
+  padding-left: 20px;
+}
+.gt-line {
+  border-right: 1px solid orange;
+  margin-bottom: 10px;
+}
+
+/*du an*/
+@media screen and (max-width: 3000px) {
+  .du-an {
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: 640px;
+    justify-content: center;
+    justify-items: center;
+    gap: 40px;
+    font-size: 14px;
+  }
+  .cv-canhan {
+    border: #c7c7c7 1px solid;
+  }
+  .fd-flex {
+    display: flex;
+  }
+  .du-an-bar {
+    display: flex;
+    gap: 20px;
+    border-top: #c7c7c7 1px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+  .du-an-context {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 120px 70px 65px;
+    color: #616161;
+  }
+  .thu-cung-context {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 120px 70px 65px;
+    /* border: solid 1px #616161; */
+    color: #616161;
+  }
+  .tin-tuc-context {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 120px 70px 65px; /*tổng 230px*/
+    /* border: solid 1px #616161; */
+    color: #616161;
+  }
+  .tb {
+    border-top: #c7c7c7 1px solid;
+    padding: 10px;
+  }
+  .web-thu-cung {
+    border: #c7c7c7 1px solid;
+  }
+  .project-title {
+    padding: 15px;
+  }
+}
+
+/**/
+/*phần footer*/
+a:visited {
+  color: #616161;
+}
+a:link {
+  text-decoration: none;
+}
+.cd-title {
+  padding: 50px;
+}
+.icon-facebook-circled {
+  margin-top: -5px;
+}
+.icon-linkedin {
+  margin-top: -5px;
+}
+.icon-github-circled {
+  margin-top: -5px;
+}
+#footer {
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.social {
+  margin-left: 350px;
+}
+/*phần mạng xã hội-footer*/
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  color: black;
+}
+.Fb {
+  display: flex;
+  list-style-type: none;
+}
+.Lk {
+  display: flex;
+  list-style-type: none;
+}
+.Github {
+  display: flex;
+  list-style-type: none;
+}

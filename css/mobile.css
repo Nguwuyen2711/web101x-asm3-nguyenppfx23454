@@ -1,0 +1,378 @@
+@media screen and (max-width: 576px) {
+  .navbar-3 {
+    display: none;
+  }
+  .navbar-item {
+    border-right: none;
+  }
+
+  /* #job-info .container {
+    display: grid;
+
+    grid-template-columns: 40%;
+    grid-template-rows: 550px 700px 700px 500px 500px 500px;
+  } */
+  /* .cc-gt {
+    display: block;
+  }
+  .cc-gt-content {
+    margin-left: -10px;
+  } */
+}
+
+@media screen and (max-width: 576px) {
+  .container .du-an {
+    display: grid;
+    grid-template-columns: 100%;
+
+    gap: 40px;
+    font-size: 14px;
+    margin-left: -600px;
+  }
+  .cv-canhan {
+    border: #c7c7c7 1px solid;
+    width: 300px;
+  }
+  .du-an-bar {
+    display: flex;
+    gap: 20px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+  .du-an-context {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 250px 100px 65px;
+    color: #616161;
+  }
+  .thu-cung-context {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 250px 100px 65px;
+    color: #616161;
+  }
+  .tin-tuc-context {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 250px 100px 65px; /*tổng 230px*/
+
+    color: #616161;
+  }
+  /* border: solid 1px #616161; */
+  .tb {
+    border-top: #c7c7c7 1px solid;
+    padding: 10px;
+  }
+  .web-thu-cung {
+    border: #c7c7c7 1px solid;
+    width: 300px;
+  }
+  .project-title {
+    padding: 15px;
+    border-bottom: #c7c7c7 solid 1px;
+  }
+  .img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .lg-sc {
+    display: block !important;
+  }
+  .sm-sc {
+    display: none !important;
+  }
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 70%;
+    grid-template-rows: auto;
+    gap: 30px;
+    font-size: 14px;
+    width: 500px;
+    margin-left: 50px;
+  }
+  .shrink-container1 {
+    height: 200px;
+  }
+  .shrink-container2 {
+    height: 200px;
+  }
+  .shrink-container3 {
+    height: 200px;
+  }
+
+  .shrink-container6 {
+    height: 200px;
+  }
+  /* #job-info .container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 200px 350px;
+    gap: 100px;
+    font-size: 14px;
+  } */
+  .kinh-nghiem {
+    grid-column: 1;
+    grid-row: 1;
+    /* height: 580px; */
+  }
+  .hoat-dong {
+    grid-column: 1;
+    grid-row: 4;
+    height: 400px;
+  }
+  .hoc-van {
+    grid-column: 1;
+    grid-row: 5;
+    margin-top: 20px;
+  }
+
+  .ngon-ngu {
+    grid-column: 1;
+    grid-row: 3;
+    height: 300px;
+  }
+  .shrink-container5 {
+    height: 200px;
+  }
+  .so-thich {
+    margin-top: -10px;
+    grid-column: 1;
+    grid-row: 6;
+  }
+  .shrink-container4 {
+    height: 200px;
+  }
+  .ky-nang {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .hoat-dong-shrink {
+    height: 200px;
+  }
+
+  #job-info h1 {
+    font-size: 30px;
+    font-weight: 400;
+    grid-row: 1 / span 1;
+    padding-top: 25px;
+    padding-left: 10px;
+    font-weight: 500;
+  }
+  #job-info h4 {
+    font-size: 16px;
+  }
+  .container .e1 .a2 {
+    grid-row: 2 / span 3;
+  }
+  .a1 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100px 30px 180px 200px 30px;
+    padding-left: 5px;
+    padding-right: 15px;
+    color: black;
+    border: 2px solid #eeeeee;
+  }
+
+  .a2 {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    color: black;
+  }
+  .a3 {
+    grid-row: 4;
+    grid-column: 1 / span 2;
+    color: black;
+  }
+  .a4 {
+    grid-row: 5;
+    grid-column: 1 / span 2;
+  }
+  .e2 {
+    grid-row: 4;
+    grid-column: 1 / span 2;
+    margin-top: -100px;
+  }
+  .e2-mb {
+    margin-top: 15px;
+  }
+  .e3-mb {
+    padding-top: 50px;
+  }
+  .e3 {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+    margin-top: -120px;
+  }
+  .display {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+  }
+
+  .display2 {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+  }
+  .display3 {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+  }
+  .icon {
+    padding: 25px;
+    padding-right: 0px;
+    color: gray;
+  }
+
+  #job-info li {
+    color: skyblue;
+  }
+  #job-info li span {
+    color: black;
+  }
+
+  .time {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .hyper-span {
+    display: flex;
+    gap: 5px;
+    padding-top: 5px;
+  }
+  .span {
+    width: 70px;
+    height: 5px;
+    background: blue;
+    border-radius: 3px;
+  }
+  .span-grey {
+    width: 70px;
+    height: 5px;
+    background: #d3d3d3;
+    border-radius: 3px;
+  }
+  .less {
+    grid-row: 5;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+
+    /* border: none; */
+  }
+  .less:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .show {
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+  }
+  .show:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden {
+    display: none;
+  }
+  /*nút 2*/
+  .less2 {
+    grid-row: 5;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    /* border: none; */
+  }
+  .less2:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .show2 {
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+  }
+  .show2:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden2 {
+    display: none;
+  }
+
+  /*nút 3*/
+  .less3 {
+    grid-row: 5;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+    /* border: none; */
+    margin-top: -150px;
+    margin-bottom: 150px;
+  }
+  .less3:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .show3 {
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    background-color: white;
+  }
+  .show3:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .hidden3 {
+    display: none;
+  }
+  .less4 {
+    margin-top: -300px;
+    margin-bottom: 300px;
+  }
+  .less5 {
+    margin-top: -250px;
+    margin-bottom: 250px;
+  }
+  .less6 {
+    margin-top: -150px;
+    margin-bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .title-banner {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -900%);
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+  .img-banner {
+    position: relative;
+    width: 824px;
+    height: 436px;
+    object-fit: cover;
+    object-position: -20% 0;
+    margin-left: -700px;
+    margin-bottom: 200px;
+
+    filter: brightness(50%);
+  }
+  .border-line {
+    border-top: 1px solid #f7f4f4; /*không hiểu sao không 
+    chuyển thành none được nên để border cùng màu với background */
+  }
+  label::before {
+    content: "\A";
+    white-space: pre;
+  }
+}

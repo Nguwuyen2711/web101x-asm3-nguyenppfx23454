@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <!--không style được với trang css nên style luôn trên trang html-->
+  <style>
+    .heading {
+      font-size: 40px;
+      border-bottom: 1px black solid;
+    }
+    .upper {
+      background-color: rgb(218, 218, 218);
+      color: black;
+      margin-right: -15px;
+      border-right: 25px blue solid;
+      margin-left: -15px;
+      border-left: 25px blue solid;
+      padding-left: 20px;
+      padding-right: 10px;
+    }
+    .upper2 {
+      padding-bottom: 50px;
+    }
+    .down {
+      color: black;
+      background-color: rgb(218, 218, 218);
+      padding-left: 20px;
+      padding-right: 10px;
+    }
+    .time-line {
+      background-color: rgb(218, 218, 218);
+      margin-bottom: 20px;
+    }
+    .down2 {
+      margin-top: 0px;
+    }
+    .row {
+      border: blue 20px solid;
+    }
+    .whole {
+      background-color: blue;
+    }
+    .line1 {
+      border-bottom: gray 1px solid;
+    }
+    .tl {
+      border-bottom: 1px solid gray;
+      border-style: hidden hidden dotted hidden;
+    }
+    @media screen and (max-width: 1400px) {
+      .time-line {
+        background-color: rgb(218, 218, 218);
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        border-right: blue solid 40px;
+      }
+    }
+  </style>
+
+  <body>
+    <div class="container-fluid mt-3 whole">
+      <div class="row">
+        <div class="col-xxl-6 text-white">
+          <div class="upper">
+            <div class="heading">Goals</div>
+            <div class="line1">
+              <div>Goal 1</div>
+              <div>Nhiều hơn 40 người tham gia</div>
+            </div>
+            <div class="line1">
+              <div>Goal 2</div>
+              <div>Cơ sở vật chất đầy đủ</div>
+            </div>
+            <div>
+              <div>Goal 3</div>
+              <div>Hoàn thành đúng giờ</div>
+            </div>
+          </div>
+          <div class="down row">
+            <div class="heading">Scopes</div>
+            <div class="col-12 col-md-12 col-xxl-6">
+              <div>IN</div>
+              <div>Năng động, tích cực</div>
+            </div>
+            <div class="col-12 col-md-12 col-xxl-6">
+              <div>OUT</div>
+              <div>Khắc phục lỗi sớm</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-3 text-white">
+          <div>
+            <div class="upper upper2">
+              <div class="heading">Team</div>
+              <a href="" style="text-decoration: none; color: black"
+                ><div>Member 01</div></a
+              >
+              <a href="" style="text-decoration: none; color: black"
+                ><div>Member 02</div></a
+              >
+              <a href="" style="text-decoration: none; color: black"
+                ><div>Member 03</div></a
+              >
+              <a href="" style="text-decoration: none; color: black"
+                ><div>Member 04</div></a
+              >
+            </div>
+          </div>
+          <div class="down row down2">
+            <div class="heading">Primary</div>
+            <div>Gọn gàng</div>
+            <div>Sạch đẹp</div>
+          </div>
+        </div>
+        <div class="col-xxl-3 text-black time-line">
+          <div class="heading">Timeline</div>
+          <div class="tl">Project start: 7/2023</div>
+          <div class="tl">Project date: 8/2023</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

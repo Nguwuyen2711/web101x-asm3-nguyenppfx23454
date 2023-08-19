@@ -1,0 +1,37 @@
+@media screen and (max-width: 767px) {
+  .list-flex {
+    display: flex;
+  }
+  .nau-an::before {
+    content: "\A";
+    white-space: pre;
+  }
+  .nau-an {
+    margin-top: 30px;
+    margin-left: -230px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .social {
+    margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .social {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 830px) {
+  .img-banner {
+    position: relative;
+    width: 1950px;
+    height: 710px;
+    object-fit: cover;
+    object-position: 100% 0;
+    margin-left: -500px !important;
+    margin-bottom: 200px;
+    filter: brightness(50%);
+  }
+}
