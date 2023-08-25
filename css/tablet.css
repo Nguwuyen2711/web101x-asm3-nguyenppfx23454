@@ -1,24 +1,29 @@
+section > .container {
+  width: 100%;
+}
+
 /*phần navbar*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 922px) {
   .navbar-item {
     border-right: 1px solid #eee;
   }
 }
 
 /*các class shrink là phần khung lúc chưa bấm nút show more*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
   .lg-sc {
     display: none;
   }
   .sm-sc {
     display: block !important;
+    margin-left: -8%;
   }
   #job-info .container {
     display: grid;
     grid-template-columns: 55% 55%;
     /* grid-template-rows: auto auto auto auto; */
-    gap: 30px;
+    gap: 0px;
     font-size: 14px;
   }
   .shrink-container1 {
@@ -287,7 +292,7 @@
 }
 /**/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
   .du-an {
     display: grid;
     grid-template-columns: 175px 175px 175px;
@@ -368,24 +373,9 @@
     width: 100%;
     margin-right: -100px;
   }
-  .img-banner {
-    position: relative;
-    width: 1950px;
-    height: 710px;
-    object-fit: cover;
-    object-position: 100% 0;
-    margin-left: -450px !important;
-    margin-bottom: 200px;
-    filter: brightness(50%);
-  }
-  .title-banner {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -700%);
-    color: white;
-    font-size: 40px;
-    font-weight: lighter;
+
+  .social {
+    gap: 20px;
   }
 }
 /*đôi khi container của phần có nút bấm hơi dài hơn lượng container bên trong

@@ -1,0 +1,8 @@
+{
+  "liveServer.settings.port": 5501,
+  "discord.lowerDetailsEditing": "Workspace: digital cv",
+  "discord.enabled": false,
+  "discord.removeDetails": true,
+  "discord.lowerDetailsNoWorkspaceFound": "digital cv",
+  "discord.removeLowerDetails": true
+}
